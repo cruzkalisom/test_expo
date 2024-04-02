@@ -6,7 +6,7 @@ const MyApp = () => {
   return (
     <SafeAreaView style={styles.container}>
       <WebView 
-        source= {{ uri: '192.168.1.8:50553' }}
+        source= {{ uri: 'http://192.168.1.8:50553' }}
         style={styles.webview}
       />
     </SafeAreaView>
